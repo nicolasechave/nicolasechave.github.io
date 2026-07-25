@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Selected engineering projects by Nicolas Echave." />
+    <title>Nicolas Echave — Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="projects-data.css" />
+  </head>
+  <body data-page="projects">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Nicolas Echave home">NE<span>·</span></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html" data-i18n="navAbout">About me</a>
+        <a class="active" href="projects.html" data-i18n="navProjects">Projects</a>
+        <a class="nav-contact" href="index.html#contact" data-i18n="navContact">Contact <span>↗</span></a>
+      </nav>
+      <div class="language-switch" aria-label="Language selector"><button type="button" data-language="en" aria-pressed="true">EN</button><span>/</span><button type="button" data-language="es" aria-pressed="false">ES</button></div>
+    </header>
+    <main>
+      <section class="projects-hero"><p class="eyebrow"><span></span><span data-i18n="projectsEyebrow">Selected work</span></p><h1 data-i18n="projectsHeading">Products that<br /><em>come to life.</em></h1></section>
+      <section class="project-list" id="project-list" aria-live="polite"><p class="projects-status" data-i18n="loadingProjects">Loading projects…</p></section>
+    </main>
+    <footer><span>© <span id="year"></span> Nicolás Echave</span><span>Argentina</span></footer>
+    <dialog class="gallery" aria-label="Project gallery"><button class="gallery-close" aria-label="Close gallery">×</button><div class="gallery-content"></div><div class="image-preview" hidden><button class="preview-close" aria-label="Back to gallery">×</button><img src="" alt="" /><p class="preview-counter"></p></div></dialog>
+    <script src="projects/projects-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+.projects-status { padding:70px 3.5vw; color:var(--muted); font:11px 'DM Mono',monospace; text-transform:uppercase; }
+.project-meta { margin-bottom:22px; font:10px/1.5 'DM Mono',monospace; color:var(--muted); text-transform:uppercase; }
+.project-actions { display:flex; flex-wrap:wrap; gap:18px; align-items:center; }
+.project-actions a { border-bottom:1px solid var(--ink); }
+.project-actions .text-link span { color:#8e9d00; margin-left:8px; }

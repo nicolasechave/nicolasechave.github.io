@@ -1,0 +1,245 @@
+window.PORTFOLIO_PROJECTS = {
+  "projects": [
+    {
+      "id": "solidyne-unidex",
+      "title": "UNIDEX Digital Audio Mixer",
+      "company": "Solidyne",
+      "country": "Argentina",
+      "engagement": "Full-time · Head of R&D",
+      "cover": "projects/solidyne_unidex/Linea_unidex.avif",
+      "summary": "Product leadership and engineering for a modular digital audio mixer platform.",
+      "technologies": [
+        "ARM64 Linux",
+        "PIC32",
+        "USB 2.0",
+        "Gigabit Ethernet",
+        "DSP"
+      ],
+      "tags": [
+        "Hardware",
+        "PCB",
+        "Embedded Linux",
+        "Digital Audio",
+        "Dante AoIP"
+      ],
+      "links": [
+        "https://solidynepro.com",
+        "https://docs.solidyne.ar/es/unidex/unidex-resumen"
+      ],
+      "gallery": [
+        "projects/solidyne_unidex/gallery/dante_2d.jpeg",
+        "projects/solidyne_unidex/gallery/dante_3d.jpeg",
+        "projects/solidyne_unidex/gallery/usb_2d.jpeg",
+        "projects/solidyne_unidex/gallery/usb_3d.jpeg",
+        "projects/solidyne_unidex/gallery/ux18_master.jpeg",
+        "projects/solidyne_unidex/gallery/ux18_master_3d.jpeg"
+      ],
+      "detailsMarkdown": "## Overview\n\nLed the development of the UNIDEX platform across product definition, PCB design, manufacturing coordination, embedded Linux applications and web-based control interfaces.\n\n## Product\n\nA modular digital audio mixer available in 18- and 24-channel configurations, with up to 50 inputs, onboard audio processing and Audio over IP streaming.",
+      "order": 1,
+      "path": "solidyne_unidex"
+    },
+    {
+      "id": "insoft-dfp1010-fe",
+      "title": "DFP-1010E RF Front-End Board",
+      "company": "Insoft · Huntmaster",
+      "country": "USA",
+      "engagement": "Freelance",
+      "cover": "projects/insoft_DFP1010_FE/DFP-1010E.png",
+      "summary": "RF front-end board 0.1-6Ghz for a professional software-defined radio direction-finding system. RF x6 layer PCB",
+      "technologies": [
+        "PIC18",
+        "SPI",
+        "RF",
+        "Controlled Impedance",
+        "Altium"
+      ],
+      "tags": [
+        "RF",
+        "PCB",
+        "SDR",
+        "High Frequency",
+        "Hardware"
+      ],
+      "links": [
+        "https://huntmasterpro.com",
+        "https://insoftusa.com"
+      ],
+      "gallery": [
+        "projects/insoft_DFP1010_FE/gallery/DFP-1010E.png",
+        "projects/insoft_DFP1010_FE/gallery/DFP1010_aplication.png",
+        "projects/insoft_DFP1010_FE/gallery/FEB-1010E_multiboard3d.png",
+        "projects/insoft_DFP1010_FE/gallery/FEB-1010E_revA_2D.png",
+        "projects/insoft_DFP1010_FE/gallery/FEB-1010E_revA_3D.png"
+      ],
+      "detailsMarkdown": "## Overview\n\nDesigned the RF front-end board for a 10 MHz to 6 GHz receiver. The design integrates a programmable filter, low-noise amplifier, clock generator and up-converter, with a 0.3 to 6 GHz SDR output.\n\n## Product\n\nThe board supports stacking and a shielding enclosure for the DFP-1010E Gigabit Ethernet Radio Direction Finding Bearing Processor, a professional-grade SDR platform.",
+      "order": 2,
+      "path": "insoft_DFP1010_FE"
+    },
+    {
+      "id": "solidyne-ipac1",
+      "title": "IPAC1 IP Audio Codec",
+      "company": "Solidyne",
+      "country": "Argentina",
+      "engagement": "Full-time · Head of R&D",
+      "cover": "projects/solidyne_ipac1/ipac1_iso.jpeg",
+      "summary": "Modular IP audio codec designed for professional broadcast and networked audio workflows.",
+      "technologies": [
+        "ARM64 Linux",
+        "ADC",
+        "DAC",
+        "I2S",
+        "SIP",
+        "RTP",
+        "SRT",
+        "RIST"
+      ],
+      "tags": [
+        "Hardware",
+        "PCB",
+        "Embedded Linux",
+        "AoIP",
+        "C++"
+      ],
+      "links": [
+        "https://solidynepro.com"
+      ],
+      "gallery": [
+        "projects/solidyne_ipac1/gallery/ipac1_front.jpeg",
+        "projects/solidyne_ipac1/gallery/ipac1_rearRJ45.jpeg",
+        "projects/solidyne_ipac1/gallery/ipac1_rearXLR.jpeg",
+        "projects/solidyne_ipac1/gallery/ipac2_webUI.png",
+        "projects/solidyne_ipac1/gallery/ipac_3d.jpeg",
+        "projects/solidyne_ipac1/gallery/ipac_adda.jpeg",
+        "projects/solidyne_ipac1/gallery/ipac_adda_3d.jpeg",
+        "projects/solidyne_ipac1/gallery/ipac_main_2d.jpeg",
+        "projects/solidyne_ipac1/gallery/ipac_open.jpeg"
+      ],
+      "detailsMarkdown": "## Overview\n\nLed product development, PCB design, manufacturing coordination, Linux application development and web-based control interfaces for the IPAC1 platform.\n\n## Product\n\nA modular IP audio codec with ADC and DAC expansion boards, GPIO and support for SIP, RTP, SRT and RIST transport protocols.",
+      "order": 3,
+      "path": "solidyne_ipac1"
+    },
+    {
+      "id": "celsius-cs100",
+      "title": "CS100 Air Quality IoT Platform",
+      "company": "Celsius by Insoft",
+      "country": "USA",
+      "engagement": "Freelance",
+      "cover": "projects/celsius_CS100/cs100.jpeg",
+      "summary": "Battery-powered IoT platform for indoor environmental measurement, monitoring and control.",
+      "technologies": [
+        "ESP32",
+        "I2C",
+        "SPI",
+        "PWM",
+        "Wi-Fi",
+        "MQTT",
+        "HTML"
+      ],
+      "tags": [
+        "Hardware",
+        "PCB",
+        "ESP32",
+        "IoT",
+        "Ultra Low Power"
+      ],
+      "links": [
+        "https://insoftusa.com"
+      ],
+      "gallery": [
+        "projects/celsius_CS100/gallery/2d.jpeg",
+        "projects/celsius_CS100/gallery/cs100_sample1.png",
+        "projects/celsius_CS100/gallery/cs100_sample2.png",
+        "projects/celsius_CS100/gallery/dashboard_draft.jpeg",
+        "projects/celsius_CS100/gallery/final1.jpeg",
+        "projects/celsius_CS100/gallery/final2.jpeg",
+        "projects/celsius_CS100/gallery/mas/WhatsApp Image 2026-07-21 at 15.53.03 (2).jpeg",
+        "projects/celsius_CS100/gallery/mas/WhatsApp Image 2026-07-21 at 15.53.03.jpeg",
+        "projects/celsius_CS100/gallery/mas/final3.jpeg",
+        "projects/celsius_CS100/gallery/mas/final_back.jpeg",
+        "projects/celsius_CS100/gallery/mas/temp_graph1.jpeg",
+        "projects/celsius_CS100/gallery/open3d.jpeg",
+        "projects/celsius_CS100/gallery/open_final.jpeg",
+        "projects/celsius_CS100/gallery/temp_graph2.jpeg"
+      ],
+      "detailsMarkdown": "## Overview\n\nDeveloped the PCB, ESP32 firmware, device interface and web-based monitoring interface for a low-power air-quality monitoring platform.\n\n## Product\n\nThe CS100 measures CO2, temperature, humidity, dust and audio level. It also integrates motion detection, a motorized thermal camera, Wi-Fi connectivity and battery operation.",
+      "order": 4,
+      "path": "celsius_CS100"
+    },
+    {
+      "id": "solidyne-542",
+      "title": "542 Digital Audio Processor",
+      "company": "Solidyne",
+      "country": "Argentina",
+      "engagement": "Full-time · Head of R&D",
+      "cover": "projects/solidyne_542/542-miniatura.avif",
+      "summary": "Digital broadcast-audio processor for FM radio and streaming applications.",
+      "technologies": [
+        "PIC32",
+        "DSP",
+        "RGMII Ethernet",
+        "Embedded Linux",
+        "HTML"
+      ],
+      "tags": [
+        "Hardware",
+        "PCB",
+        "DSP",
+        "Bare Metal",
+        "Audio Processing"
+      ],
+      "links": [
+        "https://solidynepro.com",
+        "https://docs.solidyne.ar/es/542/542-resumen"
+      ],
+      "gallery": [
+        "projects/solidyne_542/gallery/542-FM_ANALYZER.avif",
+        "projects/solidyne_542/gallery/542-procesado-densityEQ.avif",
+        "projects/solidyne_542/gallery/542-streamer-Remote_Player.avif",
+        "projects/solidyne_542/gallery/542-streamer-WEB_HOME.avif",
+        "projects/solidyne_542/gallery/542-web-home.avif",
+        "projects/solidyne_542/gallery/542_inside1.jpeg",
+        "projects/solidyne_542/gallery/542_pcb.png"
+      ],
+      "detailsMarkdown": "## Overview\n\nLed product development, PCB design, manufacturing coordination, web interface development and the PIC32 and DSP platform architecture.\n\n## Product\n\nA multiband audio DSP processor for FM and streaming, including an FM multiplex generator, FM receiver and analyser, and Audio over IP streaming capabilities.",
+      "order": 5,
+      "path": "solidyne_542"
+    },
+    {
+      "id": "tsonami-vst-lsn",
+      "title": "VST Live Streaming Normalizer",
+      "company": "Tsonami",
+      "country": "Argentina",
+      "engagement": "Personal project",
+      "cover": "projects/tsonami_VST_LSN/LSNv2.png",
+      "summary": "Real-time VST audio processor for live loudness measurement and control.",
+      "technologies": [
+        "C++",
+        "JUCE",
+        "DSP",
+        "GUI",
+        "Visual Studio"
+      ],
+      "tags": [
+        "Audio",
+        "DSP",
+        "VST",
+        "C++",
+        "JUCE"
+      ],
+      "links": [
+        "https://tsonami.com.ar"
+      ],
+      "gallery": [
+        "projects/tsonami_VST_LSN/gallery/LSNFree_capture1.png",
+        "projects/tsonami_VST_LSN/gallery/LSNv2.png",
+        "projects/tsonami_VST_LSN/gallery/LSNv2_presets.png",
+        "projects/tsonami_VST_LSN/gallery/VST_UI_in.png",
+        "projects/tsonami_VST_LSN/gallery/VST_UI_out.png",
+        "projects/tsonami_VST_LSN/gallery/VST_UI_proc.png"
+      ],
+      "detailsMarkdown": "## Overview\n\nDesigned and developed the real-time audio DSP engine and user interface as a C++ desktop audio application using the JUCE framework.\n\n## Product\n\nA VST processor for live loudness control based on ITU-R BS.1770 and EBU R128 standards.",
+      "order": 6,
+      "path": "tsonami_VST_LSN"
+    }
+  ]
+};

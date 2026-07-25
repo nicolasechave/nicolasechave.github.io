@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Nicolas Echave, Head of Research and Development and Electronics Engineer." />
+    <title>Nicolas Echave — About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="portrait.css" />
+    <link rel="stylesheet" href="technologies.css" />
+  </head>
+  <body data-page="about">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Nicolas Echave home">NE<span>·</span></a>
+      <nav aria-label="Main navigation">
+        <a class="active" href="index.html" data-i18n="navAbout">About me</a>
+        <a href="projects.html" data-i18n="navProjects">Projects</a>
+        <a class="nav-contact" href="#contact" data-i18n="navContact">Contact <span>↗</span></a>
+      </nav>
+      <div class="language-switch" aria-label="Language selector">
+        <button type="button" data-language="en" aria-pressed="true">EN</button><span>/</span>
+        <button type="button" data-language="es" aria-pressed="false">ES</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="about-hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span><span data-i18n="heroEyebrow">Research & development</span></p>
+          <h1>Nicolás<br />Echave</h1>
+          <p class="hero-role" data-i18n="heroRole">Research & Development</p>
+          <p class="hero-title" data-i18n="heroTitle">Electronics Engineer</p>
+          <p class="hero-skills" data-i18n="heroSkills">Embedded Systems · Hardware Architecture · DSP · Professional Audio</p>
+          <a class="primary-link" href="projects.html" data-i18n="viewProjects">View Projects <span>↗</span></a>
+        </div>
+        <div class="portrait-frame">
+          <img src="profile2.png" alt="Nicolás Echave, Electronics Engineer" />
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <p class="eyebrow" data-i18n="aboutEyebrow">01 / About</p>
+        <div class="about-copy">
+          <h2 data-i18n="aboutHeading">Engineering with a product mindset.</h2>
+          <div>
+            <p data-i18n="aboutP1">I am an Electronics Engineer with more than 18 years of experience developing commercial electronic products for professional audio, embedded systems and RF applications.</p>
+            <p data-i18n="aboutP2">My work spans the complete product lifecycle, from system architecture and hardware design to embedded software, Linux applications and manufacturing support.</p>
+            <p data-i18n="aboutP3">I enjoy solving complex engineering problems by combining different disciplines into reliable, maintainable and production-ready solutions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="approach-section">
+        <div class="section-heading dark-heading"><p class="eyebrow" data-i18n="approachEyebrow">02 / Engineering approach</p></div>
+        <div class="approach-intro"><h2 data-i18n="approachHeading">How I approach<br />complex products.</h2></div>
+        <div class="approach-grid">
+          <article><span class="card-symbol">⌘</span><h3 data-i18n="systemTitle">System Thinking</h3><p data-i18n="systemText">Designing complete systems instead of isolated components.</p></article>
+          <article><span class="card-symbol">⚙</span><h3 data-i18n="handsTitle">Hands-on Engineering</h3><p data-i18n="handsText">From architecture to implementation.</p></article>
+          <article><span class="card-symbol">↗</span><h3 data-i18n="reliabilityTitle">Long-term Reliability</h3><p data-i18n="reliabilityText">Design for manufacturing, maintenance and evolution.</p></article>
+          <article><span class="card-symbol">✦</span><h3 data-i18n="learningTitle">Continuous Learning</h3><p data-i18n="learningText">Always exploring new technologies and better solutions.</p></article>
+        </div>
+      </section>
+
+      <section class="tech-section">
+        <div class="section-heading"><p class="eyebrow" data-i18n="techEyebrow">03 / Technologies</p></div>
+        <div class="tech-grid">
+          <article><span class="tech-number">01</span><h3 data-i18n="embedded">Embedded Systems</h3><div class="tech-tags"><span>ARM</span><span>ESP32</span><span>Linux</span><span>RTOS</span><span>PIC 16/32</span></div></article>
+          <article><span class="tech-number">02</span><h3 data-i18n="hardware">Hardware</h3><div class="tech-tags"><span>Analog</span><span>Digital</span><span>RF</span><span>DSP</span></div></article>
+          <article><span class="tech-number">03</span><h3 data-i18n="software">Software</h3><div class="tech-tags"><span>C</span><span>C++</span><span>Python</span><span>JUCE</span></div></article>
+          <article><span class="tech-number">04</span><h3 data-i18n="tools">Tools</h3><div class="tech-tags"><span>Altium</span><span>Git</span><span>Docker</span></div></article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <p class="eyebrow" data-i18n="contactEyebrow">04 / Contact</p>
+        <h2 data-i18n="contactHeading">Let's build<br />something real.</h2>
+        <div class="contact-list">
+          <a href="mailto:nicolasechave@gmail.com">nicolasechave@gmail.com <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/ing-nicolas-echave/" class="contact-placeholder" data-i18n="linkedin">LinkedIn <span>↗</span></a>
+          <a href="https://github.com/nicolasechave" class="contact-placeholder" data-i18n="github">GitHub <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+    <footer><span>© <span id="year"></span> Nicolás Echave</span><span>Argentina</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
