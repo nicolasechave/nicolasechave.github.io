@@ -1,51 +1,13 @@
 window.PORTFOLIO_PROJECTS = {
   "projects": [
     {
-      "id": "solidyne-unidex",
-      "title": "UNIDEX Digital Audio Mixer",
-      "company": "Solidyne",
-      "country": "Argentina",
-      "engagement": "Full-time · Head of R&D",
-      "cover": "projects/solidyne_unidex/Linea_unidex.avif",
-      "summary": "Product leadership and engineering for a modular digital audio mixer platform.",
-      "technologies": [
-        "ARM64 Linux",
-        "PIC32",
-        "USB 2.0",
-        "Gigabit Ethernet",
-        "DSP"
-      ],
-      "tags": [
-        "Hardware",
-        "PCB",
-        "Embedded Linux",
-        "Digital Audio",
-        "Dante AoIP"
-      ],
-      "links": [
-        "https://solidynepro.com",
-        "https://docs.solidyne.ar/es/unidex/unidex-resumen"
-      ],
-      "gallery": [
-        "projects/solidyne_unidex/gallery/dante_2d.jpeg",
-        "projects/solidyne_unidex/gallery/dante_3d.jpeg",
-        "projects/solidyne_unidex/gallery/usb_2d.jpeg",
-        "projects/solidyne_unidex/gallery/usb_3d.jpeg",
-        "projects/solidyne_unidex/gallery/ux18_master.jpeg",
-        "projects/solidyne_unidex/gallery/ux18_master_3d.jpeg"
-      ],
-      "detailsMarkdown": "## Overview\n\nLed the development of the UNIDEX platform across product definition, PCB design, manufacturing coordination, embedded Linux applications and web-based control interfaces.\n\n## Product\n\nA modular digital audio mixer available in 18- and 24-channel configurations, with up to 50 inputs, onboard audio processing and Audio over IP streaming.",
-      "order": 1,
-      "path": "solidyne_unidex"
-    },
-    {
       "id": "insoft-dfp1010-fe",
       "title": "DFP-1010E RF Front-End Board",
       "company": "Insoft · Huntmaster",
       "country": "USA",
-      "engagement": "Freelance",
-      "cover": "projects/insoft_DFP1010_FE/DFP-1010E.png",
-      "summary": "RF front-end board 0.1-6Ghz for a professional software-defined radio direction-finding system. RF x6 layer PCB",
+      "engagement": "Independent consulting · In development",
+      "cover": "projects/insoft_DFP1010_FE/gallery/FEB-1010E_revA_3D.png",
+      "summary": "Schematic design and 6-layer controlled-impedance PCB layout for a 10 MHz to 6 GHz SDR front-end.",
       "technologies": [
         "PIC18",
         "SPI",
@@ -60,6 +22,13 @@ window.PORTFOLIO_PROJECTS = {
         "High Frequency",
         "Hardware"
       ],
+      "tags_es": [
+        "RF",
+        "PCB",
+        "SDR",
+        "Alta frecuencia",
+        "Hardware"
+      ],
       "links": [
         "https://huntmasterpro.com",
         "https://insoftusa.com"
@@ -68,21 +37,141 @@ window.PORTFOLIO_PROJECTS = {
         "projects/insoft_DFP1010_FE/gallery/DFP-1010E.png",
         "projects/insoft_DFP1010_FE/gallery/DFP1010_aplication.png",
         "projects/insoft_DFP1010_FE/gallery/FEB-1010E_multiboard3d.png",
-        "projects/insoft_DFP1010_FE/gallery/FEB-1010E_revA_2D.png",
         "projects/insoft_DFP1010_FE/gallery/FEB-1010E_revA_3D.png"
       ],
-      "detailsMarkdown": "## Overview\n\nDesigned the RF front-end board for a 10 MHz to 6 GHz receiver. The design integrates a programmable filter, low-noise amplifier, clock generator and up-converter, with a 0.3 to 6 GHz SDR output.\n\n## Product\n\nThe board supports stacking and a shielding enclosure for the DFP-1010E Gigabit Ethernet Radio Direction Finding Bearing Processor, a professional-grade SDR platform.",
+      "title_es": "Placa frontend de RF DFP-1010E",
+      "summary_es": "Diseño de circuitos y PCB de 6 capas con impedancia controlada para un frontend SDR de 10 MHz a 6 GHz.",
+      "engagement_es": "Consultoría independiente · En desarrollo",
+      "detailsMarkdown": "## My contribution\n\nSchematic design and review, and 6-layer controlled-impedance PCB layout in Altium Designer. The front-end integrates programmable filtering, a low-noise amplifier, a clock generator and an upconverter, with PIC18 control and SPI interfaces.\n\n## System\n\nRF front-end for a 10 MHz to 6 GHz receiver in the DFP-1010E direction-finding SDR platform. The board supports stacking and a shielding enclosure.\n\n## Current status\n\nDevelopment is ongoing.",
+      "detailsMarkdownEs": "## Mi contribución\n\nDiseño y revisión de circuitos, y layout de PCB de 6 capas con impedancia controlada en Altium Designer. El frontend integra filtrado programable, amplificador de bajo ruido, generador de reloj y conversor de frecuencia, con control mediante PIC18 e interfaces SPI.\n\n## Sistema\n\nFrontend de RF para un receptor de 10 MHz a 6 GHz de la plataforma SDR de radiogoniometría DFP-1010E. La placa admite montaje apilado y un recinto de blindaje.\n\n## Estado actual\n\nEl desarrollo continúa en curso.",
+      "order": 1,
+      "path": "insoft_DFP1010_FE",
+      "captions": {
+        "projects/insoft_DFP1010_FE/gallery/DFP-1010E.png": {
+          "en": "DFP-1010E system",
+          "es": "Sistema DFP-1010E"
+        },
+        "projects/insoft_DFP1010_FE/gallery/DFP1010_aplication.png": {
+          "en": "Direction-finding application",
+          "es": "Aplicación de radiogoniometría"
+        },
+        "projects/insoft_DFP1010_FE/gallery/FEB-1010E_multiboard3d.png": {
+          "en": "Board stacking - 3D view",
+          "es": "Montaje apilado - vista 3D"
+        },
+        "projects/insoft_DFP1010_FE/gallery/FEB-1010E_revA_3D.png": {
+          "en": "RF front-end - 3D PCB view",
+          "es": "Frontend de RF - vista 3D de la PCB"
+        }
+      }
+    },
+    {
+      "id": "vhf-antenna-control",
+      "title": "VHF Direction-Finding Antenna Control Board",
+      "title_es": "Placa de control de antena VHF para radiogoniometría",
+      "company": "Independent engineering",
+      "company_es": "Ingeniería independiente",
+      "country": "",
+      "engagement": "Independent consulting · In development",
+      "engagement_es": "Consultoría independiente · En desarrollo",
+      "summary": "A new antenna control board for a VHF direction-finding system, currently in development.",
+      "summary_es": "Nueva placa de control de antena para un sistema de radiogoniometría VHF, actualmente en desarrollo.",
+      "technologies": [
+        "VHF",
+        "Direction Finding",
+        "Hardware"
+      ],
+      "tags": [
+        "VHF",
+        "Direction Finding",
+        "Hardware"
+      ],
+      "tags_es": [
+        "VHF",
+        "Radiogoniometría",
+        "Hardware"
+      ],
+      "links": [],
+      "detailsMarkdown": "## My contribution\n\nDevelopment of a new antenna control board for a VHF direction-finding system.\n\n## Current status\n\nIn development.",
+      "detailsMarkdownEs": "## Mi contribución\n\nDesarrollo de una nueva placa de control de antena para un sistema de radiogoniometría VHF.\n\n## Estado actual\n\nEn desarrollo.",
       "order": 2,
-      "path": "insoft_DFP1010_FE"
+      "path": "vhf_antenna_control",
+      "cover": null,
+      "gallery": [],
+      "captions": {}
+    },
+    {
+      "id": "solidyne-unidex",
+      "title": "UNIDEX Digital Audio Mixer",
+      "company": "Solidyne",
+      "country": "Argentina",
+      "engagement": "Solidyne employee · Engineering & R&D Manager · Until Aug 2026",
+      "cover": "projects/solidyne_unidex/Linea_unidex.avif",
+      "summary": "PCB design, embedded Linux applications and product development for a modular digital audio mixer.",
+      "technologies": [
+        "ARM64 Linux",
+        "PIC32",
+        "USB 2.0",
+        "Gigabit Ethernet",
+        "DSP"
+      ],
+      "tags": [
+        "Hardware",
+        "PCB",
+        "Embedded Linux",
+        "Digital Audio",
+        "Dante AoIP"
+      ],
+      "tags_es": [
+        "Hardware",
+        "PCB",
+        "Linux embebido",
+        "Audio digital",
+        "Dante AoIP"
+      ],
+      "links": [
+        "https://solidynepro.com",
+        "https://docs.solidyne.ar/es/unidex/unidex-resumen"
+      ],
+      "gallery": [
+        "projects/solidyne_unidex/gallery/dante_3d.jpeg",
+        "projects/solidyne_unidex/gallery/usb_3d.jpeg",
+        "projects/solidyne_unidex/gallery/ux18-groups-pantalla.avif",
+        "projects/solidyne_unidex/gallery/ux18_master_3d.jpeg",
+        "projects/solidyne_unidex/gallery/ux24-WEB-EQ.avif",
+        "projects/solidyne_unidex/gallery/ux24-WEB-remotemixer.avif",
+        "projects/solidyne_unidex/gallery/ux24-operacion-zonas.avif"
+      ],
+      "title_es": "Consola de audio digital UNIDEX",
+      "summary_es": "Diseño de PCB, aplicaciones Linux embebidas y desarrollo de producto para una consola de audio digital modular.",
+      "engagement_es": "En relación de dependencia · Gerente de Ingeniería e I+D · Hasta agosto de 2026",
+      "detailsMarkdown": "## My contribution\n\nLed the development of the UNIDEX platform across product definition, PCB design, manufacturing coordination, embedded Linux applications and web-based control interfaces.\n\n## Product\n\nA modular digital audio mixer available in 18- and 24-channel configurations, with up to 50 inputs, onboard audio processing and Audio over IP streaming.",
+      "detailsMarkdownEs": "## Mi contribución\n\nLideré el desarrollo de UNIDEX, desde la definición del producto hasta el diseño de PCB, la coordinación de fabricación, las aplicaciones Linux embebidas y las interfaces de control web. La plataforma combina ARM64 Linux, PIC32, DSP, USB 2.0 y Gigabit Ethernet.\n\n## Producto\n\nConsola de audio digital modular en configuraciones de 18 y 24 canales, con hasta 50 entradas, procesamiento de audio y transmisión de audio sobre IP.",
+      "order": 3,
+      "path": "solidyne_unidex",
+      "captions": {
+        "projects/solidyne_unidex/gallery/dante_3d.jpeg": {
+          "en": "Dante interface - 3D PCB view",
+          "es": "Interfaz Dante - vista 3D de la PCB"
+        },
+        "projects/solidyne_unidex/gallery/usb_3d.jpeg": {
+          "en": "USB interface - 3D PCB view",
+          "es": "Interfaz USB - vista 3D de la PCB"
+        },
+        "projects/solidyne_unidex/gallery/ux18_master_3d.jpeg": {
+          "en": "UX18 master board - 3D view",
+          "es": "Placa master UX18 - vista 3D"
+        }
+      }
     },
     {
       "id": "solidyne-ipac1",
       "title": "IPAC1 IP Audio Codec",
       "company": "Solidyne",
       "country": "Argentina",
-      "engagement": "Full-time · Head of R&D",
+      "engagement": "Solidyne employee · Engineering & R&D Manager · Until Aug 2026",
       "cover": "projects/solidyne_ipac1/ipac1_iso.jpeg",
-      "summary": "Modular IP audio codec designed for professional broadcast and networked audio workflows.",
+      "summary": "PCB design and Linux application development for a modular IP audio codec with ADC and DAC expansion boards.",
       "technologies": [
         "ARM64 Linux",
         "ADC",
@@ -100,6 +189,13 @@ window.PORTFOLIO_PROJECTS = {
         "AoIP",
         "C++"
       ],
+      "tags_es": [
+        "Hardware",
+        "PCB",
+        "Linux embebido",
+        "AoIP",
+        "C++"
+      ],
       "links": [
         "https://solidynepro.com"
       ],
@@ -109,14 +205,41 @@ window.PORTFOLIO_PROJECTS = {
         "projects/solidyne_ipac1/gallery/ipac1_rearXLR.jpeg",
         "projects/solidyne_ipac1/gallery/ipac2_webUI.png",
         "projects/solidyne_ipac1/gallery/ipac_3d.jpeg",
-        "projects/solidyne_ipac1/gallery/ipac_adda.jpeg",
-        "projects/solidyne_ipac1/gallery/ipac_adda_3d.jpeg",
-        "projects/solidyne_ipac1/gallery/ipac_main_2d.jpeg",
         "projects/solidyne_ipac1/gallery/ipac_open.jpeg"
       ],
-      "detailsMarkdown": "## Overview\n\nLed product development, PCB design, manufacturing coordination, Linux application development and web-based control interfaces for the IPAC1 platform.\n\n## Product\n\nA modular IP audio codec with ADC and DAC expansion boards, GPIO and support for SIP, RTP, SRT and RIST transport protocols.",
-      "order": 3,
-      "path": "solidyne_ipac1"
+      "title_es": "Códec de audio IP IPAC1",
+      "summary_es": "Diseño de PCB y aplicaciones Linux para un códec de audio IP modular con placas de expansión ADC y DAC.",
+      "engagement_es": "En relación de dependencia · Gerente de Ingeniería e I+D · Hasta agosto de 2026",
+      "detailsMarkdown": "## My contribution\n\nLed product development, PCB design, manufacturing coordination, Linux application development and web-based control interfaces for the IPAC1 platform.\n\n## Product\n\nA modular IP audio codec with ADC and DAC expansion boards, GPIO and support for SIP, RTP, SRT and RIST transport protocols.",
+      "detailsMarkdownEs": "## Mi contribución\n\nLideré el desarrollo de producto, el diseño de PCB, la coordinación de fabricación y el desarrollo de aplicaciones Linux e interfaces web de control.\n\n## Producto\n\nCódec de audio IP modular con placas de expansión ADC y DAC, GPIO e interfaces I2S. La plataforma utiliza ARM64 Linux y admite los protocolos SIP, RTP, SRT y RIST.",
+      "order": 4,
+      "path": "solidyne_ipac1",
+      "captions": {
+        "projects/solidyne_ipac1/gallery/ipac1_front.jpeg": {
+          "en": "IPAC1 front panel",
+          "es": "Panel frontal IPAC1"
+        },
+        "projects/solidyne_ipac1/gallery/ipac1_rearRJ45.jpeg": {
+          "en": "IPAC1 rear panel - RJ45",
+          "es": "Panel posterior IPAC1 - RJ45"
+        },
+        "projects/solidyne_ipac1/gallery/ipac1_rearXLR.jpeg": {
+          "en": "IPAC1 rear panel - XLR",
+          "es": "Panel posterior IPAC1 - XLR"
+        },
+        "projects/solidyne_ipac1/gallery/ipac2_webUI.png": {
+          "en": "Web control interface",
+          "es": "Interfaz web de control"
+        },
+        "projects/solidyne_ipac1/gallery/ipac_3d.jpeg": {
+          "en": "IPAC hardware - 3D view",
+          "es": "Hardware IPAC - vista 3D"
+        },
+        "projects/solidyne_ipac1/gallery/ipac_open.jpeg": {
+          "en": "Internal hardware assembly",
+          "es": "Montaje interno del hardware"
+        }
+      }
     },
     {
       "id": "celsius-cs100",
@@ -125,7 +248,7 @@ window.PORTFOLIO_PROJECTS = {
       "country": "USA",
       "engagement": "Freelance",
       "cover": "projects/celsius_CS100/cs100.jpeg",
-      "summary": "Battery-powered IoT platform for indoor environmental measurement, monitoring and control.",
+      "summary": "PCB design, ESP32 firmware, sensor integration and web monitoring for a battery-powered IoT platform.",
       "technologies": [
         "ESP32",
         "I2C",
@@ -142,6 +265,13 @@ window.PORTFOLIO_PROJECTS = {
         "IoT",
         "Ultra Low Power"
       ],
+      "tags_es": [
+        "Hardware",
+        "PCB",
+        "ESP32",
+        "IoT",
+        "Muy bajo consumo"
+      ],
       "links": [
         "https://insoftusa.com"
       ],
@@ -152,27 +282,64 @@ window.PORTFOLIO_PROJECTS = {
         "projects/celsius_CS100/gallery/dashboard_draft.jpeg",
         "projects/celsius_CS100/gallery/final1.jpeg",
         "projects/celsius_CS100/gallery/final2.jpeg",
-        "projects/celsius_CS100/gallery/mas/WhatsApp Image 2026-07-21 at 15.53.03 (2).jpeg",
-        "projects/celsius_CS100/gallery/mas/WhatsApp Image 2026-07-21 at 15.53.03.jpeg",
-        "projects/celsius_CS100/gallery/mas/final3.jpeg",
-        "projects/celsius_CS100/gallery/mas/final_back.jpeg",
-        "projects/celsius_CS100/gallery/mas/temp_graph1.jpeg",
         "projects/celsius_CS100/gallery/open3d.jpeg",
         "projects/celsius_CS100/gallery/open_final.jpeg",
         "projects/celsius_CS100/gallery/temp_graph2.jpeg"
       ],
-      "detailsMarkdown": "## Overview\n\nDeveloped the PCB, ESP32 firmware, device interface and web-based monitoring interface for a low-power air-quality monitoring platform.\n\n## Product\n\nThe CS100 measures CO2, temperature, humidity, dust and audio level. It also integrates motion detection, a motorized thermal camera, Wi-Fi connectivity and battery operation.",
-      "order": 4,
-      "path": "celsius_CS100"
+      "title_es": "Plataforma IoT de calidad del aire CS100",
+      "summary_es": "Diseño de PCB, firmware ESP32, integración de sensores y monitoreo web para una plataforma IoT a batería.",
+      "engagement_es": "Trabajo independiente",
+      "detailsMarkdown": "## My contribution\n\nDeveloped the PCB, ESP32 firmware, device interface and web-based monitoring interface for a low-power air-quality monitoring platform.\n\n## Product\n\nThe CS100 measures CO2, temperature, humidity, dust and audio level. It also integrates motion detection, a motorized thermal camera, Wi-Fi connectivity and battery operation.",
+      "detailsMarkdownEs": "## Mi contribución\n\nDesarrollé la PCB, el firmware ESP32 con RTOS, los controladores de sensores, la interfaz del dispositivo y el monitoreo web para una plataforma de calidad del aire de bajo consumo.\n\n## Producto\n\nEl CS100 mide CO2, temperatura, humedad, partículas y nivel de audio. Integra detección de movimiento, cámara térmica motorizada, conectividad Wi-Fi y funcionamiento a batería.",
+      "order": 5,
+      "path": "celsius_CS100",
+      "captions": {
+        "projects/celsius_CS100/gallery/2d.jpeg": {
+          "en": "PCB layout",
+          "es": "Layout de PCB"
+        },
+        "projects/celsius_CS100/gallery/cs100_sample1.png": {
+          "en": "CS100 hardware - view 1",
+          "es": "Hardware CS100 - vista 1"
+        },
+        "projects/celsius_CS100/gallery/cs100_sample2.png": {
+          "en": "CS100 hardware - view 2",
+          "es": "Hardware CS100 - vista 2"
+        },
+        "projects/celsius_CS100/gallery/dashboard_draft.jpeg": {
+          "en": "Monitoring dashboard prototype",
+          "es": "Prototipo del panel de monitoreo"
+        },
+        "projects/celsius_CS100/gallery/final1.jpeg": {
+          "en": "CS100 assembled device - view 1",
+          "es": "Dispositivo CS100 armado - vista 1"
+        },
+        "projects/celsius_CS100/gallery/final2.jpeg": {
+          "en": "CS100 assembled device - view 2",
+          "es": "Dispositivo CS100 armado - vista 2"
+        },
+        "projects/celsius_CS100/gallery/open3d.jpeg": {
+          "en": "Internal assembly - 3D view",
+          "es": "Montaje interno - vista 3D"
+        },
+        "projects/celsius_CS100/gallery/open_final.jpeg": {
+          "en": "Internal hardware assembly",
+          "es": "Montaje interno del hardware"
+        },
+        "projects/celsius_CS100/gallery/temp_graph2.jpeg": {
+          "en": "Temperature monitoring",
+          "es": "Monitoreo de temperatura"
+        }
+      }
     },
     {
       "id": "solidyne-542",
       "title": "542 Digital Audio Processor",
       "company": "Solidyne",
       "country": "Argentina",
-      "engagement": "Full-time · Head of R&D",
+      "engagement": "Solidyne employee · Engineering & R&D Manager · Until Aug 2026",
       "cover": "projects/solidyne_542/542-miniatura.avif",
-      "summary": "Digital broadcast-audio processor for FM radio and streaming applications.",
+      "summary": "PCB design and PIC32/DSP platform architecture for an FM broadcast and streaming audio processor.",
       "technologies": [
         "PIC32",
         "DSP",
@@ -187,6 +354,13 @@ window.PORTFOLIO_PROJECTS = {
         "Bare Metal",
         "Audio Processing"
       ],
+      "tags_es": [
+        "Hardware",
+        "PCB",
+        "DSP",
+        "Bare Metal",
+        "Procesamiento de audio"
+      ],
       "links": [
         "https://solidynepro.com",
         "https://docs.solidyne.ar/es/542/542-resumen"
@@ -197,12 +371,41 @@ window.PORTFOLIO_PROJECTS = {
         "projects/solidyne_542/gallery/542-streamer-Remote_Player.avif",
         "projects/solidyne_542/gallery/542-streamer-WEB_HOME.avif",
         "projects/solidyne_542/gallery/542-web-home.avif",
-        "projects/solidyne_542/gallery/542_inside1.jpeg",
-        "projects/solidyne_542/gallery/542_pcb.png"
+        "projects/solidyne_542/gallery/542_inside1.jpeg"
       ],
-      "detailsMarkdown": "## Overview\n\nLed product development, PCB design, manufacturing coordination, web interface development and the PIC32 and DSP platform architecture.\n\n## Product\n\nA multiband audio DSP processor for FM and streaming, including an FM multiplex generator, FM receiver and analyser, and Audio over IP streaming capabilities.",
-      "order": 5,
-      "path": "solidyne_542"
+      "title_es": "Procesador de audio digital 542",
+      "summary_es": "Diseño de PCB y arquitectura de plataforma PIC32/DSP para un procesador de audio de FM y streaming.",
+      "engagement_es": "En relación de dependencia · Gerente de Ingeniería e I+D · Hasta agosto de 2026",
+      "detailsMarkdown": "## My contribution\n\nLed product development, PCB design, manufacturing coordination, web interface development and the PIC32 and DSP platform architecture.\n\n## Product\n\nA multiband audio DSP processor for FM and streaming, including an FM multiplex generator, FM receiver and analyser, and Audio over IP streaming capabilities.",
+      "detailsMarkdownEs": "## Mi contribución\n\nLideré el desarrollo de producto, el diseño de PCB, la coordinación de fabricación, las interfaces web y la arquitectura de la plataforma PIC32 y DSP.\n\n## Producto\n\nProcesador de audio DSP multibanda para FM y streaming. Incluye generador de múltiplex de FM, receptor y analizador de FM, y transmisión de audio sobre IP.",
+      "order": 6,
+      "path": "solidyne_542",
+      "captions": {
+        "projects/solidyne_542/gallery/542_inside1.jpeg": {
+          "en": "Internal hardware assembly",
+          "es": "Montaje interno del hardware"
+        },
+        "projects/solidyne_542/gallery/542-FM_ANALYZER.avif": {
+          "en": "FM analyser interface",
+          "es": "Interfaz del analizador de FM"
+        },
+        "projects/solidyne_542/gallery/542-procesado-densityEQ.avif": {
+          "en": "Audio processing and equalisation",
+          "es": "Procesamiento y ecualización de audio"
+        },
+        "projects/solidyne_542/gallery/542-streamer-Remote_Player.avif": {
+          "en": "Streaming remote player",
+          "es": "Reproductor remoto de streaming"
+        },
+        "projects/solidyne_542/gallery/542-streamer-WEB_HOME.avif": {
+          "en": "Streaming web interface",
+          "es": "Interfaz web de streaming"
+        },
+        "projects/solidyne_542/gallery/542-web-home.avif": {
+          "en": "Processor web interface",
+          "es": "Interfaz web del procesador"
+        }
+      }
     },
     {
       "id": "tsonami-vst-lsn",
@@ -237,9 +440,39 @@ window.PORTFOLIO_PROJECTS = {
         "projects/tsonami_VST_LSN/gallery/VST_UI_out.png",
         "projects/tsonami_VST_LSN/gallery/VST_UI_proc.png"
       ],
-      "detailsMarkdown": "## Overview\n\nDesigned and developed the real-time audio DSP engine and user interface as a C++ desktop audio application using the JUCE framework.\n\n## Product\n\nA VST processor for live loudness control based on ITU-R BS.1770 and EBU R128 standards.",
-      "order": 6,
-      "path": "tsonami_VST_LSN"
+      "title_es": "Normalizador VST para streaming en vivo",
+      "summary_es": "Desarrollo de un motor DSP y una interfaz en C++ con JUCE para medición y control de sonoridad en tiempo real.",
+      "engagement_es": "Proyecto personal",
+      "detailsMarkdown": "## My contribution\n\nDesigned and developed the real-time audio DSP engine and user interface as a C++ desktop audio application using the JUCE framework.\n\n## Product\n\nA VST processor for live loudness control based on ITU-R BS.1770 and EBU R128 standards.",
+      "detailsMarkdownEs": "## Mi contribución\n\nDiseñé y desarrollé el motor DSP de audio en tiempo real y la interfaz de usuario como aplicación de escritorio en C++, utilizando JUCE.\n\n## Producto\n\nProcesador VST para control de sonoridad en vivo, basado en las normas ITU-R BS.1770 y EBU R128.",
+      "order": 7,
+      "path": "tsonami_VST_LSN",
+      "captions": {
+        "projects/tsonami_VST_LSN/gallery/LSNFree_capture1.png": {
+          "en": "LSN Free interface",
+          "es": "Interfaz LSN Free"
+        },
+        "projects/tsonami_VST_LSN/gallery/LSNv2_presets.png": {
+          "en": "LSN v2 presets",
+          "es": "Presets de LSN v2"
+        },
+        "projects/tsonami_VST_LSN/gallery/LSNv2.png": {
+          "en": "LSN v2 interface",
+          "es": "Interfaz LSN v2"
+        },
+        "projects/tsonami_VST_LSN/gallery/VST_UI_in.png": {
+          "en": "Input section",
+          "es": "Sección de entrada"
+        },
+        "projects/tsonami_VST_LSN/gallery/VST_UI_out.png": {
+          "en": "Output section",
+          "es": "Sección de salida"
+        },
+        "projects/tsonami_VST_LSN/gallery/VST_UI_proc.png": {
+          "en": "Processing section",
+          "es": "Sección de procesamiento"
+        }
+      }
     }
   ]
 };

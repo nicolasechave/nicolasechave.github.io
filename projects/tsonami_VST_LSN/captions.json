@@ -1,0 +1,26 @@
+{
+  "LSNFree_capture1.png": {
+    "en": "LSN Free interface",
+    "es": "Interfaz LSN Free"
+  },
+  "LSNv2_presets.png": {
+    "en": "LSN v2 presets",
+    "es": "Presets de LSN v2"
+  },
+  "LSNv2.png": {
+    "en": "LSN v2 interface",
+    "es": "Interfaz LSN v2"
+  },
+  "VST_UI_in.png": {
+    "en": "Input section",
+    "es": "Sección de entrada"
+  },
+  "VST_UI_out.png": {
+    "en": "Output section",
+    "es": "Sección de salida"
+  },
+  "VST_UI_proc.png": {
+    "en": "Processing section",
+    "es": "Sección de procesamiento"
+  }
+}

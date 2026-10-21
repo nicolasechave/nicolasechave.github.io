@@ -3,3 +3,30 @@
 .project-actions { display:flex; flex-wrap:wrap; gap:18px; align-items:center; }
 .project-actions a { border-bottom:1px solid var(--ink); }
 .project-actions .text-link span { color:#8e9d00; margin-left:8px; }
+
+.projects-hero { padding:65px 9vw 50px; }
+.projects-hero h1 { font-size:clamp(2.7rem,6vw,6rem); line-height:1; letter-spacing:-.065em; }
+.project h2 { font-size:clamp(1.9rem,3.3vw,3.5rem); line-height:1.04; overflow-wrap:break-word; }
+.project-info { min-width:0; }
+.project { align-items:start; }
+.project-image img { object-fit:contain; }
+.project-details { margin-top:24px; border-top:1px solid var(--line); }
+.project-details summary { padding:16px 0; cursor:pointer; font-size:13px; font-weight:800; }
+.project-details-body h3 { margin:18px 0 8px; font-size:13px; }
+.project-details-body p { margin-bottom:14px; font-size:14px; line-height:1.7; }
+.project-in-progress { min-height:430px; display:flex; flex-direction:column; justify-content:center; align-items:center; padding:35px; background:var(--ink); color:var(--paper); }
+.project-in-progress > span { color:var(--lime); font:500 clamp(3rem,7vw,6rem)/1 'DM Mono',monospace; letter-spacing:-.06em; }
+.project-in-progress p { margin:20px 0 0; font:12px/1.5 'DM Mono',monospace; text-align:center; }
+.gallery-item { text-align:left; align-self:start; }
+.gallery-caption { display:block; padding:10px 12px; font:11px/1.5 'DM Mono',monospace; color:var(--ink); background:var(--paper); }
+.preview-counter { right:56px; line-height:1.5; }
+.image-preview img { max-height:calc(90vh - 125px); }
+:is(a,button,summary):focus-visible { outline:2px solid #677900; outline-offset:5px; }
+@media(max-width:760px) {
+  .projects-hero { padding:55px 22px 35px; }
+  .project-in-progress { min-height:300px; }
+  .project-meta { font-size:11px; }
+  .image-preview { padding:45px 15px 70px; }
+  .preview-counter { right:18px; }
+  .gallery-caption { padding:8px; font-size:10px; }
+}

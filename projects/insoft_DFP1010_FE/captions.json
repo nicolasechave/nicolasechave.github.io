@@ -1,0 +1,22 @@
+{
+  "DFP-1010E.png": {
+    "en": "DFP-1010E system",
+    "es": "Sistema DFP-1010E"
+  },
+  "DFP1010_aplication.png": {
+    "en": "Direction-finding application",
+    "es": "Aplicación de radiogoniometría"
+  },
+  "FEB-1010E_multiboard3d.png": {
+    "en": "Board stacking - 3D view",
+    "es": "Montaje apilado - vista 3D"
+  },
+  "FEB-1010E_revA_2D.png": {
+    "en": "RF front-end - PCB layout",
+    "es": "Frontend de RF - layout de PCB"
+  },
+  "FEB-1010E_revA_3D.png": {
+    "en": "RF front-end - 3D PCB view",
+    "es": "Frontend de RF - vista 3D de la PCB"
+  }
+}

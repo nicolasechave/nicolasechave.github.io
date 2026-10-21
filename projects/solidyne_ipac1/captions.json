@@ -1,0 +1,38 @@
+{
+  "ipac1_front.jpeg": {
+    "en": "IPAC1 front panel",
+    "es": "Panel frontal IPAC1"
+  },
+  "ipac1_rearRJ45.jpeg": {
+    "en": "IPAC1 rear panel - RJ45",
+    "es": "Panel posterior IPAC1 - RJ45"
+  },
+  "ipac1_rearXLR.jpeg": {
+    "en": "IPAC1 rear panel - XLR",
+    "es": "Panel posterior IPAC1 - XLR"
+  },
+  "ipac2_webUI.png": {
+    "en": "Web control interface",
+    "es": "Interfaz web de control"
+  },
+  "ipac_3d.jpeg": {
+    "en": "IPAC hardware - 3D view",
+    "es": "Hardware IPAC - vista 3D"
+  },
+  "ipac_adda.jpeg": {
+    "en": "ADC/DAC expansion board",
+    "es": "Placa de expansión ADC/DAC"
+  },
+  "ipac_adda_3d.jpeg": {
+    "en": "ADC/DAC expansion board - 3D view",
+    "es": "Placa de expansión ADC/DAC - vista 3D"
+  },
+  "ipac_main_2d.jpeg": {
+    "en": "Mainboard - PCB layout",
+    "es": "Placa principal - layout de PCB"
+  },
+  "ipac_open.jpeg": {
+    "en": "Internal hardware assembly",
+    "es": "Montaje interno del hardware"
+  }
+}

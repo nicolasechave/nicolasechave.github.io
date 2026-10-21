@@ -1,0 +1,58 @@
+{
+  "2d.jpeg": {
+    "en": "PCB layout",
+    "es": "Layout de PCB"
+  },
+  "cs100_sample1.png": {
+    "en": "CS100 hardware - view 1",
+    "es": "Hardware CS100 - vista 1"
+  },
+  "cs100_sample2.png": {
+    "en": "CS100 hardware - view 2",
+    "es": "Hardware CS100 - vista 2"
+  },
+  "dashboard_draft.jpeg": {
+    "en": "Monitoring dashboard prototype",
+    "es": "Prototipo del panel de monitoreo"
+  },
+  "final1.jpeg": {
+    "en": "CS100 assembled device - view 1",
+    "es": "Dispositivo CS100 armado - vista 1"
+  },
+  "final2.jpeg": {
+    "en": "CS100 assembled device - view 2",
+    "es": "Dispositivo CS100 armado - vista 2"
+  },
+  "open3d.jpeg": {
+    "en": "Internal assembly - 3D view",
+    "es": "Montaje interno - vista 3D"
+  },
+  "open_final.jpeg": {
+    "en": "Internal hardware assembly",
+    "es": "Montaje interno del hardware"
+  },
+  "temp_graph2.jpeg": {
+    "en": "Temperature monitoring",
+    "es": "Monitoreo de temperatura"
+  },
+  "mas/WhatsApp Image 2026-07-21 at 15.53.03 (2).jpeg": {
+    "en": "CS100 device - additional view 1",
+    "es": "Dispositivo CS100 - vista adicional 1"
+  },
+  "mas/WhatsApp Image 2026-07-21 at 15.53.03.jpeg": {
+    "en": "CS100 device - additional view 2",
+    "es": "Dispositivo CS100 - vista adicional 2"
+  },
+  "mas/final3.jpeg": {
+    "en": "CS100 assembled device - view 3",
+    "es": "Dispositivo CS100 armado - vista 3"
+  },
+  "mas/final_back.jpeg": {
+    "en": "CS100 rear view",
+    "es": "Vista posterior del CS100"
+  },
+  "mas/temp_graph1.jpeg": {
+    "en": "Temperature monitoring - detail",
+    "es": "Monitoreo de temperatura - detalle"
+  }
+}

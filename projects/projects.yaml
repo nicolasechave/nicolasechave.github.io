@@ -1,6 +1,7 @@
 projects:
-  - path: solidyne_unidex
   - path: insoft_DFP1010_FE
+  - path: vhf_antenna_control
+  - path: solidyne_unidex
   - path: solidyne_ipac1
   - path: celsius_CS100
   - path: solidyne_542

@@ -1,0 +1,26 @@
+{
+  "dante_2d.jpeg": {
+    "en": "Dante interface - PCB layout",
+    "es": "Interfaz Dante - layout de PCB"
+  },
+  "dante_3d.jpeg": {
+    "en": "Dante interface - 3D PCB view",
+    "es": "Interfaz Dante - vista 3D de la PCB"
+  },
+  "usb_2d.jpeg": {
+    "en": "USB interface - PCB layout",
+    "es": "Interfaz USB - layout de PCB"
+  },
+  "usb_3d.jpeg": {
+    "en": "USB interface - 3D PCB view",
+    "es": "Interfaz USB - vista 3D de la PCB"
+  },
+  "ux18_master.jpeg": {
+    "en": "UX18 master board",
+    "es": "Placa master UX18"
+  },
+  "ux18_master_3d.jpeg": {
+    "en": "UX18 master board - 3D view",
+    "es": "Placa master UX18 - vista 3D"
+  }
+}

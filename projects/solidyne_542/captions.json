@@ -1,0 +1,30 @@
+{
+  "542_inside1.jpeg": {
+    "en": "Internal hardware assembly",
+    "es": "Montaje interno del hardware"
+  },
+  "542_pcb.png": {
+    "en": "Processor PCB",
+    "es": "PCB del procesador"
+  },
+  "542-FM_ANALYZER.avif": {
+    "en": "FM analyser interface",
+    "es": "Interfaz del analizador de FM"
+  },
+  "542-procesado-densityEQ.avif": {
+    "en": "Audio processing and equalisation",
+    "es": "Procesamiento y ecualización de audio"
+  },
+  "542-streamer-Remote_Player.avif": {
+    "en": "Streaming remote player",
+    "es": "Reproductor remoto de streaming"
+  },
+  "542-streamer-WEB_HOME.avif": {
+    "en": "Streaming web interface",
+    "es": "Interfaz web de streaming"
+  },
+  "542-web-home.avif": {
+    "en": "Processor web interface",
+    "es": "Interfaz web del procesador"
+  }
+}

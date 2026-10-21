@@ -21,3 +21,9 @@ Después de editar un proyecto, regenerá los datos que consumirá el sitio (`pr
 ```powershell
 node scripts/build-projects-data.mjs
 ```
+
+## Contenido bilingüe y galerías
+
+Los campos `title_es`, `summary_es`, `engagement_es` y, cuando corresponda, `company_es` y `tags_es` contienen las traducciones. El cuerpo comienza en inglés; `<!-- lang:es -->` separa el detalle en español. El detalle técnico admite títulos `##` y párrafos de texto, y se muestra en un desplegable por proyecto.
+
+Los epígrafes se definen en `captions.json` dentro de cada proyecto: cada ruta relativa a la galería contiene un objeto con `en` y `es`. Los proyectos en desarrollo pueden omitir `cover` y `gallery`; se presentan sin imágenes. La selección de idioma se conserva en los enlaces internos y, si está disponible, en el almacenamiento local del navegador.

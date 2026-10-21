@@ -20,12 +20,14 @@ function parseProject(markdown) {
     const delimiter = line.indexOf(':');
     return [line.slice(0, delimiter).trim(), parseValue(line.slice(delimiter + 1))];
   }));
-  return { ...metadata, detailsMarkdown: match[2].trim() };
+  const [english, spanish = ''] = match[2].replace(/\r\n?/g, '\n').split('<!-- lang:es -->');
+  return { ...metadata, detailsMarkdown: english.trim(), detailsMarkdownEs: spanish.trim() };
 }
 
 async function collectImages(directory, relativeDirectory = '') {
   const entries = await readdir(directory, { withFileTypes: true });
   const files = await Promise.all(entries.map(async entry => {
+    if (entry.name.toLowerCase() === 'private') return [];
     const relativePath = path.join(relativeDirectory, entry.name);
     if (entry.isDirectory()) return collectImages(path.join(directory, entry.name), relativePath);
     return imageExtensions.has(path.extname(entry.name).toLowerCase()) ? [relativePath.replaceAll('\\', '/')] : [];
@@ -38,13 +40,24 @@ const projectPaths = [...manifest.matchAll(/^\s*- path:\s*(.+)$/gm)].map(match =
 const projects = await Promise.all(projectPaths.map(async (projectPath, index) => {
   const directory = path.join(projectsRoot, projectPath);
   const project = parseProject(await readFile(path.join(directory, 'description.md'), 'utf8'));
-  const galleryPath = path.join(directory, project.gallery);
+  const galleryPath = project.gallery ? path.join(directory, project.gallery) : null;
+  if (project.cover?.split(/[\\/]/).some(segment => segment.toLowerCase() === 'private')) {
+    throw new Error(`Project ${projectPath} uses a private image as its cover.`);
+  }
+  const publicImages = galleryPath ? await collectImages(galleryPath) : [];
+  let captions = {};
+  try {
+    captions = JSON.parse(await readFile(path.join(directory, 'captions.json'), 'utf8'));
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+  }
   return {
     ...project,
     order: index + 1,
     path: projectPath,
-    cover: `projects/${projectPath}/${project.cover}`,
-    gallery: (await collectImages(galleryPath)).map(image => `projects/${projectPath}/${project.gallery}/${image}`)
+    cover: project.cover ? `projects/${projectPath}/${project.cover}` : null,
+    gallery: publicImages.map(image => `projects/${projectPath}/${project.gallery}/${image}`),
+    captions: Object.fromEntries(Object.entries(captions).filter(([image]) => publicImages.includes(image)).map(([image, caption]) => [`projects/${projectPath}/${project.gallery}/${image}`, caption]))
   };
 }));
 
